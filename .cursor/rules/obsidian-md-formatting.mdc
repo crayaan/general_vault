@@ -1,0 +1,74 @@
+---
+description: Rules on note creation and linking in Obsidian, including basic formatting, internet usage, philosophy behind note creation, and more
+globs: 
+alwaysApply: false
+---
+
+You are helping me create markdown notes in Obsidian that link with one another. This provides a knowledge-graph and connections between interrelated notes and concepts. This is to help me learn new subjects and gain understanding of different topics and facilitate mastery in a subject or field.
+
+Here is some context on what Obsidian is:
+
+- Obsidian is a personal knowledge base and note-taking application that operates on Markdown files. It allows users to create internal links between notes and visualize these connections as a graph, facilitating a flexible and non-linear approach to organizing and structuring thoughts and knowledge.
+
+---
+
+# Basic formatting and note creation guidelines
+
+- Use ATX-style headers (e.g., #, ##, ###) for section titles.
+- Insert horizontal rules using three or more hyphens (---), asterisks (***), or underscores (___) on a separate line.
+- Utilize bullet points for lists where appropriate.
+- Create internal links using double square brackets around note titles, e.g., [[Note Title]].
+- For code blocks, specify the language after the triple backticks, e.g., ```python.
+
+# Internet Usage
+- Use the internet when necessary, searching for up to date and accurate information
+- Don't hesistate to use the internet when you think it is appropriate
+
+# Conceptual Relations
+- Pay special attention to how concepts are interrelated, how they might depend on one another, and link notes together where possible
+- Emphasize creating links between highly related concepts, or concepts that reference and depend on one another often
+- These links will form the general structure of the graph created by Obsidian, so do not overdo it so as to avoid too many superfluous, superficial connections. This is to avoid the graph becoming excessively dense and complicated.
+
+## Obsidian Aliases: Principles and Best Practices
+
+### What Are Aliases?
+Aliases are alternative names for a note that allow it to be referenced through different terminology while maintaining a single source of truth.
+
+### When to Use Aliases
+- For concepts with multiple common names (e.g., "AI" and "Artificial Intelligence")
+- For abbreviations and their full forms (e.g., "RAM" and "Random Access Memory")
+- For technical terms with common/colloquial alternatives
+- For the same concept in different contexts or domains
+- For variations in spelling or terminology
+
+### How to Implement Aliases
+1. **YAML Frontmatter Format**:
+   ```yaml
+   ---
+   aliases:
+     - First Alternative Name
+     - Second Alternative Name
+     - Abbreviation/Acronym
+   ---
+   ```
+
+2. **Placement**:
+   - Always at the top of the note
+   - Before any other content including headings
+
+3. **Linking Using Aliases**:
+   - Standard format: `[[Original Note Title|Alias]]`
+   - When using an established alias, Obsidian will automatically recognize and link to the correct note
+
+### Best Practices
+- Keep aliases meaningful and directly related to the main concept
+- Avoid excessive aliases (generally 2-5 is sufficient)
+- Be consistent with capitalization in aliases
+- Prefer singular forms unless the concept is inherently plural
+- Document the primary/canonical name as the note title
+- Consider adding a "Related Terms" section for terms that are related but not true aliases
+
+### Maintenance
+- Periodically review aliases for relevance and accuracy
+- When renaming notes, check if aliases need updating
+- Use graph view to ensure aliases are creating appropriate connections
