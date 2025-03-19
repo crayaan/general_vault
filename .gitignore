@@ -5,9 +5,6 @@
 .trash/
 .DS_Store
 
-# Cursor IDE related
-.cursor/
-
 # Mobile app sync
 .mobile/
 
