@@ -1,0 +1,41 @@
+# Obsidian specific files
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins
+.trash/
+.DS_Store
+
+# Cursor IDE related
+.cursor/
+
+# Mobile app sync
+.mobile/
+
+# Local history for VS Code
+.history/
+.vscode/
+
+# Exclude potential build/binary directories
+**/dist/
+**/build/
+**/node_modules/
+
+# Exclude Nix profile/store specific files that might accidentally get copied in
+**/.nix-profile
+**/.nix-defexpr
+**/.local/state/nix
+
+# Temporary files and logs
+*.log
+*.temp
+*.tmp
+.Trash/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
