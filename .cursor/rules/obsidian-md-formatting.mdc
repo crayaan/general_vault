@@ -19,6 +19,7 @@ Here is some context on what Obsidian is:
 - Utilize bullet points for lists where appropriate.
 - Create internal links using double square brackets around note titles, e.g., [[Note Title]].
 - For code blocks, specify the language after the triple backticks, e.g., ```python.
+- Don't use underscores in the note titles, use spaces. E.g. Instead of "Note_Title" use "Note Title"
 
 # Internet Usage
 - Use the internet when necessary, searching for up to date and accurate information
@@ -72,3 +73,73 @@ Aliases are alternative names for a note that allow it to be referenced through 
 - Periodically review aliases for relevance and accuracy
 - When renaming notes, check if aliases need updating
 - Use graph view to ensure aliases are creating appropriate connections
+
+# Section Header Linking Rule for P2P ML Knowledge Base
+
+## Purpose
+This rule defines the standard approach for connecting section headers in roadmap/overview documents to their corresponding companion notes, ensuring consistent navigation and knowledge graph formation within the P2P ML knowledge base.
+
+## Core Principles
+
+1. **Section Headers as Navigation Points**
+   - Main section headers in overview documents should link directly to their companion notes when available
+   - Use descriptive, context-rich anchors that clearly indicate the linked document's purpose
+   - Prefer linking at the section header level rather than adding separate "Learn more at..." links
+
+2. **Naming Conventions**
+   - When a section corresponds to a companion note, rename the section to incorporate the key terms from the note title
+   - Include the domain prefix (e.g., "P2P") when linking to general concepts to maintain context
+   - Use the most recognizable part of the concept in the visible link text
+
+3. **Link Formation**
+   - Use the format `[[filename|visible text]]` for all section header links
+   - Make the header title itself the link anchor rather than creating separate link references
+   - Ensure filenames use underscores for spaces to prevent link breakage (e.g., `[[File_Name|File Name]]`)
+
+## Implementation Examples
+
+### Correct Examples
+
+```markdown
+### [[P2P Security Considerations|P2P Security and Privacy]]
+```
+This links the section header "P2P Security and Privacy" to the companion note "P2P Security Considerations".
+
+```markdown
+### [[Model Parallelism Fundamentals|Model Parallelism]] in Machine Learning
+```
+This links a portion of the section header to the companion note while maintaining the full context.
+
+### Incorrect Examples
+
+```markdown
+### Security and Privacy
+Learn more in [[P2P Security Considerations]]
+```
+This creates a separate reference link rather than making the header itself navigational.
+
+```markdown
+### [[Model Parallelism Fundamentals]]
+```
+This does not use the proper filename with underscores and doesn't provide custom display text.
+
+## Benefits
+
+- **Improved Navigation**: Users can directly navigate to detailed notes from section headers
+- **Cleaner Document Structure**: Eliminates redundant "Learn more at..." references
+- **Stronger Knowledge Graph**: Creates more meaningful connections between overview documents and detailed notes
+- **Visual Clarity**: Makes navigational options immediately apparent from the document structure
+
+## Application Scope
+
+This rule applies to all overview/roadmap documents in the P2P ML knowledge base, particularly:
+- Main roadmap documents
+- Architecture overviews
+- Component relationship diagrams
+- Learning path documents
+
+## Exceptions
+
+- Very short section headers (< 3 words) may be expanded in the link text for clarity
+- When a section covers only a subset of a companion note, specify which aspect in the visible link text
+- In cases where a section spans multiple companion notes, link the most relevant term to each note
