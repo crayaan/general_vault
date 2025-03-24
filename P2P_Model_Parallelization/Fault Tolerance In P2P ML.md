@@ -296,7 +296,7 @@ Fault tolerance strategies for edge-based P2P ML:
 
 ## Related Topics
 
-- [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]] - Overall learning path for P2P model parallelism
+- [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]] - Overall learning path for P2P model parallelism
 - [[Distributed Computing Fundamentals|Distributed Computing Fundamentals]] - Core distributed systems concepts
 - [[Peer Discovery Mechanisms|Peer Discovery Mechanisms]] - Finding and connecting to peers
 - [[Model Parallelism Fundamentals|Model Parallelism Fundamentals]] - Understanding model parallelization approaches
@@ -304,7 +304,7 @@ Fault tolerance strategies for edge-based P2P ML:
 
 ## Part Of
 
-This note addresses one of the most critical challenges in P2P model parallelization: ensuring system reliability despite the inherent instability of peer-to-peer networks. Fault tolerance mechanisms are essential for any practical implementation of distributed machine learning. For the complete P2P ML system architecture, see the [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]].
+This note addresses one of the most critical challenges in P2P model parallelization: ensuring system reliability despite the inherent instability of peer-to-peer networks. Fault tolerance mechanisms are essential for any practical implementation of distributed machine learning. For the complete P2P ML system architecture, see the [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]].
 
 ---
 Tags: #fault-tolerance #p2p #distributed-ml #reliability #failure-detection 

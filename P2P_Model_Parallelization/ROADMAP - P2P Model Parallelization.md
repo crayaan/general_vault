@@ -508,4 +508,4 @@ The P2P model parallelization system consists of several interrelated components
 5. Borzunov, A., et al. (2023). Petals: Collaborative Inference and Fine-tuning of Large Models. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics.
 
 ---
-Tags: #p2p #model-parallelism #distributed-computing #ml-infrastructure #federated-learning #volunteer-computing 
+Tags: #p2p #model-parallelism #distributed-computing #ml-infrastructure #federated-learning #volunteer-computing

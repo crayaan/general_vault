@@ -14,12 +14,12 @@ Here is some context on what Obsidian is:
 
 # Basic formatting and note creation guidelines
 
+- Don't use underscores in the note titles, use spaces. E.g. Instead of "Note_Title" use "Note Title"
 - Use ATX-style headers (e.g., #, ##, ###) for section titles.
 - Insert horizontal rules using three or more hyphens (---), asterisks (***), or underscores (___) on a separate line.
 - Utilize bullet points for lists where appropriate.
 - Create internal links using double square brackets around note titles, e.g., [[Note Title]].
 - For code blocks, specify the language after the triple backticks, e.g., ```python.
-- Don't use underscores in the note titles, use spaces. E.g. Instead of "Note_Title" use "Note Title"
 
 # Internet Usage
 - Use the internet when necessary, searching for up to date and accurate information
@@ -74,10 +74,10 @@ Aliases are alternative names for a note that allow it to be referenced through 
 - When renaming notes, check if aliases need updating
 - Use graph view to ensure aliases are creating appropriate connections
 
-# Section Header Linking Rule for P2P ML Knowledge Base
+# Section Header Linking Rule
 
 ## Purpose
-This rule defines the standard approach for connecting section headers in roadmap/overview documents to their corresponding companion notes, ensuring consistent navigation and knowledge graph formation within the P2P ML knowledge base.
+This rule defines the standard approach for connecting section headers in roadmap/overview documents to their corresponding companion notes, ensuring consistent navigation and knowledge graph formation.
 
 ## Core Principles
 
@@ -85,6 +85,7 @@ This rule defines the standard approach for connecting section headers in roadma
    - Main section headers in overview documents should link directly to their companion notes when available
    - Use descriptive, context-rich anchors that clearly indicate the linked document's purpose
    - Prefer linking at the section header level rather than adding separate "Learn more at..." links
+   - Always use spaces in note titles, not underscores (e.g., "Model Parallelism" not "Model_Parallelism")
 
 2. **Naming Conventions**
    - When a section corresponds to a companion note, rename the section to incorporate the key terms from the note title

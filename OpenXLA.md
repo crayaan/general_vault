@@ -1,0 +1,3 @@
+![[Pasted image 20250320162052.png]]
+* OpenXLA is an open ecosystem of performant, portable, and extensible machine learning (ML) infrastructure components that simplify ML development by defragmenting the tools between frontend frameworks and hardware backends. It includes the [[XLA Compiler]]], [[StableHLO]], VHLO, [PJRT](https://openxla.org/xla/pjrt/overview) and other components.
+	* See [[PJRT]] note

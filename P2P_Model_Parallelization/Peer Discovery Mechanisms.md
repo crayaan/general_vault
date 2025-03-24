@@ -232,7 +232,7 @@ Emerging approaches to peer discovery for ML systems:
 
 ## Related Topics
 
-- [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]] - Overall learning path for P2P model parallelism
+- [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]] - Overall learning path for P2P model parallelism
 - [[Distributed Computing Fundamentals|Distributed Computing Fundamentals]] - Core distributed systems concepts
 - [[Fault Tolerance In P2P ML|Fault Tolerance In P2P ML]] - Dealing with node failures
 - [[P2P Security Considerations|P2P Security Considerations]] - Security aspects of P2P systems
@@ -240,7 +240,7 @@ Emerging approaches to peer discovery for ML systems:
 
 ## Part Of
 
-This note is a crucial component of the P2P Model Parallelization system, focusing on the networking foundation that enables peers to find and connect to each other. Network formation is the first step in distributed model execution, preceding model partitioning and computation. For the complete learning roadmap, see [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]].
+This note is a crucial component of the P2P Model Parallelization system, focusing on the networking foundation that enables peers to find and connect to each other. Network formation is the first step in distributed model execution, preceding model partitioning and computation. For the complete learning roadmap, see [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]].
 
 ---
 Tags: #p2p #network-discovery #distributed-systems #nat-traversal #dht 

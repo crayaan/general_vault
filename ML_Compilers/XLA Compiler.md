@@ -3,7 +3,8 @@
 XLA is an open-source compiler for machine learning that optimizes models from popular frameworks for high-performance execution across different hardware platforms.
 
 ## Overview
-
+![[Pasted image 20250320143951.png]]
+* see: [[StableHLO]], [[PJRT]]
 XLA (Accelerated Linear Algebra) takes models from frameworks like PyTorch, TensorFlow, and JAX and optimizes them for efficient execution on various hardware platforms including GPUs, CPUs, and ML accelerators. The project is now part of the broader OpenXLA initiative, built collaboratively by industry-leading ML hardware and software companies, including Alibaba, Amazon Web Services, AMD, Apple, Arm, Google, Intel, Meta, and NVIDIA.
 
 ## Key Benefits

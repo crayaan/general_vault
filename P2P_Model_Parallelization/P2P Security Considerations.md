@@ -354,7 +354,7 @@ SWARM parallelism incorporates security considerations:
 
 ## Related Topics
 
-- [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]] - Overall learning path for P2P model parallelism
+- [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]] - Overall learning path for P2P model parallelism
 - [[Distributed Computing Fundamentals|Distributed Computing Fundamentals]] - Core distributed systems concepts
 - [[Peer Discovery Mechanisms|Peer Discovery Mechanisms]] - Finding and connecting to peers
 - [[Fault Tolerance In P2P ML|Fault Tolerance In P2P ML]] - Handling system failures
@@ -362,7 +362,7 @@ SWARM parallelism incorporates security considerations:
 
 ## Part Of
 
-This note addresses the security aspects of P2P model parallelization, which are critical for any real-world implementation. Security considerations influence all components of the system, from peer discovery to model partitioning to fault tolerance. The interconnection between security and reliability is particularly strong, as many security threats manifest as reliability issues. For the complete system architecture, see the [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]].
+This note addresses the security aspects of P2P model parallelization, which are critical for any real-world implementation. Security considerations influence all components of the system, from peer discovery to model partitioning to fault tolerance. The interconnection between security and reliability is particularly strong, as many security threats manifest as reliability issues. For the complete system architecture, see the [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]].
 
 ---
 Tags: #security #p2p #distributed-ml #privacy #cryptography #byzantine-fault-tolerance 

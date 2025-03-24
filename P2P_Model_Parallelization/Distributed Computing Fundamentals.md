@@ -141,7 +141,7 @@ Distributed computing involves multiple computing devices working together as a 
 
 ## Related Topics
 
-- [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]] - Overall learning path for P2P model parallelism
+- [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]] - Overall learning path for P2P model parallelism
 - [[Model Parallelism Fundamentals|Model Parallelism Fundamentals]] - Core concepts in model parallelization
 - [[Peer Discovery Mechanisms|Peer Discovery Mechanisms]] - Techniques for finding peers in P2P networks
 - [[Fault Tolerance In P2P ML|Fault Tolerance In P2P ML]] - Handling failures in distributed ML systems
@@ -149,7 +149,7 @@ Distributed computing involves multiple computing devices working together as a 
 
 ## Part Of
 
-This note provides the theoretical foundation for the P2P Model Parallelization system. It explains the key distributed systems concepts that underpin all aspects of peer-to-peer machine learning, from network formation to fault tolerance. For practical application of these concepts, see the [[ROADMAP- P2P Model Parallelization|ROADMAP- P2P Model Parallelization]].
+This note provides the theoretical foundation for the P2P Model Parallelization system. It explains the key distributed systems concepts that underpin all aspects of peer-to-peer machine learning, from network formation to fault tolerance. For practical application of these concepts, see the [[ROADMAP - P2P Model Parallelization|ROADMAP - P2P Model Parallelization]].
 
 ---
 Tags: #distributed-computing #p2p #consensus #distributed-algorithms #system-architecture 
