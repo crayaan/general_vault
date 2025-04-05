@@ -9,7 +9,7 @@ aliases:
 
 ## Overview
 
-This note presents key examples and problems that illustrate the [[Principle of Least Action]] and its applications in classical mechanics. Each example demonstrates how the principle leads to equations of motion and reveals important physical insights.
+This note presents key examples and problems that illustrate the [[Hamilton's Principle|Principle of Least Action]] and its applications in classical mechanics. Each example demonstrates how the principle leads to equations of motion and reveals important physical insights.
 
 ## Fundamental Examples
 

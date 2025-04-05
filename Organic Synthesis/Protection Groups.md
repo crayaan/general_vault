@@ -26,19 +26,19 @@ Protection groups are temporary modifications of functional groups used to preve
 
 ### 1. Alcohol (OH) Protection
 
-| Protection Group | Structure | Installation | Deprotection | Stable to | Labile to |
-|-----------------|-----------|--------------|--------------|-----------|-----------|
-| **Silyl Ethers** |
-| TMS | R-OSi(CH₃)₃ | TMSCl, base | H⁺, F⁻, H₂O | Base | Acid, fluoride |
-| TBS/TBDMS | R-OSi(t-Bu)(CH₃)₂ | TBSCl, imidazole | TBAF, HF·pyridine | Base, mild acid | Fluoride, strong acid |
-| TIPS | R-OSi(i-Pr)₃ | TIPSCl, imidazole | TBAF | Base, moderate acid | Fluoride, strong acid |
-| **Ethers** |
-| Methoxymethyl (MOM) | R-OCH₂OCH₃ | MOMCl, base | HCl | Base, nucleophiles | Acid |
-| Benzyl (Bn) | R-OCH₂Ph | BnBr, NaH | H₂/Pd, Na/NH₃ | Acid, base | Hydrogenolysis |
-| p-Methoxybenzyl (PMB) | R-OCH₂-C₆H₄-OCH₃ | PMBCl, NaH | DDQ, CAN, H₂/Pd | Acid, base | Oxidation, hydrogenolysis |
-| **Esters** |
-| Acetate | R-OC(O)CH₃ | Ac₂O, pyridine | K₂CO₃, MeOH | Acid | Base |
-| Benzoate | R-OC(O)Ph | BzCl, pyridine | NaOH | Acid | Base |
+| Protection Group      | Structure         | Installation      | Deprotection      | Stable to           | Labile to                 |
+| --------------------- | ----------------- | ----------------- | ----------------- | ------------------- | ------------------------- |
+| **Silyl Ethers**      |                   |                   |                   |                     |                           |
+| TMS                   | R-OSi(CH₃)₃       | TMSCl, base       | H⁺, F⁻, H₂O       | Base                | Acid, fluoride            |
+| TBS/TBDMS             | R-OSi(t-Bu)(CH₃)₂ | TBSCl, imidazole  | TBAF, HF·pyridine | Base, mild acid     | Fluoride, strong acid     |
+| TIPS                  | R-OSi(i-Pr)₃      | TIPSCl, imidazole | TBAF              | Base, moderate acid | Fluoride, strong acid     |
+| **Ethers**            |                   |                   |                   |                     |                           |
+| Methoxymethyl (MOM)   | R-OCH₂OCH₃        | MOMCl, base       | HCl               | Base, nucleophiles  | Acid                      |
+| Benzyl (Bn)           | R-OCH₂Ph          | BnBr, NaH         | H₂/Pd, Na/NH₃     | Acid, base          | Hydrogenolysis            |
+| p-Methoxybenzyl (PMB) | R-OCH₂-C₆H₄-OCH₃  | PMBCl, NaH        | DDQ, CAN, H₂/Pd   | Acid, base          | Oxidation, hydrogenolysis |
+| **Esters**            |                   |                   |                   |                     |                           |
+| Acetate               | R-OC(O)CH₃        | Ac₂O, pyridine    | K₂CO₃, MeOH       | Acid                | Base                      |
+| Benzoate              | R-OC(O)Ph         | BzCl, pyridine    | NaOH              | Acid                | Base                      |
 
 #### Selection Guide for Alcohol Protection
 - **Need base stability**: Use acetate or benzoate
@@ -63,14 +63,14 @@ Protection groups are temporary modifications of functional groups used to preve
 
 ### 3. Carboxylic Acid (COOH) Protection
 
-| Protection Group | Structure | Installation | Deprotection | Stable to | Labile to |
-|-----------------|-----------|--------------|--------------|-----------|-----------|
-| **Esters** |
-| Methyl | RCOOCH₃ | CH₃OH, H⁺ or CH₂N₂ | NaOH, LiOH | Acid, nucleophiles | Base |
-| t-Butyl | RCOOC(CH₃)₃ | t-BuOH, DCC or isobutene, H⁺ | TFA | Base, nucleophiles | Acid |
-| Benzyl | RCOOCH₂Ph | BnOH, DCC or BnBr, base | H₂/Pd, Na/NH₃ | Acid, base | Hydrogenolysis |
-| **Amides** |
-| N,O-Dimethylhydroxylamine | RCON(CH₃)OCH₃ | MeONHMe·HCl, EDC | LiAlH₄, DIBAL | Acid, base | Strong reducing agents |
+| Protection Group          | Structure     | Installation                 | Deprotection  | Stable to          | Labile to              |
+| ------------------------- | ------------- | ---------------------------- | ------------- | ------------------ | ---------------------- |
+| **Esters**                |               |                              |               |                    |                        |
+| Methyl                    | RCOOCH₃       | CH₃OH, H⁺ or CH₂N₂           | NaOH, LiOH    | Acid, nucleophiles | Base                   |
+| t-Butyl                   | RCOOC(CH₃)₃   | t-BuOH, DCC or isobutene, H⁺ | TFA           | Base, nucleophiles | Acid                   |
+| Benzyl                    | RCOOCH₂Ph     | BnOH, DCC or BnBr, base      | H₂/Pd, Na/NH₃ | Acid, base         | Hydrogenolysis         |
+| **Amides**                |               |                              |               |                    |                        |
+| N,O-Dimethylhydroxylamine | RCON(CH₃)OCH₃ | MeONHMe·HCl, EDC             | LiAlH₄, DIBAL | Acid, base         | Strong reducing agents |
 
 #### Selection Guide for Carboxylic Acid Protection
 - **Need base stability**: Use methyl or benzyl esters

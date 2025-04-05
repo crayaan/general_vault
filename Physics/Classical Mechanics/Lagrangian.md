@@ -30,7 +30,7 @@ where:
 
 ### 2. Physical Significance
 - Encodes complete dynamics of a system
-- Leads to [[Euler-Lagrange Equation]] through [[Principle of Least Action]]
+- Leads to [[Euler-Lagrange Equation]] through [[Hamilton's Principle||Principle of Least Action]]
 - Preserves fundamental symmetries
 
 ## Examples
@@ -58,7 +58,7 @@ where:
 
 ## Theoretical Framework
 
-### Connection to [[Hamilton's Principle]]
+### Connection to [[Principle of Least Action|Hamilton's Principle]]
 The action $S$ is defined as:
 $$
 S = \int_{t_1}^{t_2} L(q, \dot{q}, t) dt
